@@ -1,0 +1,77 @@
+INFO 2025-05-08 00:00:14,823 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:00:26,711 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:01:16,645 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:03:51,433 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:11:28,664 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:11:34,600 basehttp "GET /health/ HTTP/1.1" 200 53
+ERROR 2025-05-08 00:11:50,898 log Internal Server Error: /auth/register/init
+ERROR 2025-05-08 00:11:50,899 basehttp "POST /auth/register/init HTTP/1.1" 500 60
+INFO 2025-05-08 00:14:06,456 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-08 00:14:17,275 log Internal Server Error: /auth/register/init
+ERROR 2025-05-08 00:14:17,276 basehttp "POST /auth/register/init HTTP/1.1" 500 85
+INFO 2025-05-08 00:14:46,284 basehttp "POST /auth/register/init HTTP/1.1" 200 104
+INFO 2025-05-08 00:15:58,809 basehttp "POST /auth/register/complete HTTP/1.1" 201 881
+INFO 2025-05-08 00:16:09,771 basehttp "POST /auth/login/init HTTP/1.1" 200 82
+INFO 2025-05-08 00:16:27,508 basehttp "POST /auth/login/complete HTTP/1.1" 200 874
+INFO 2025-05-08 00:17:46,207 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\views.py changed, reloading.
+INFO 2025-05-08 00:17:47,326 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:23:52,995 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\admin.py changed, reloading.
+INFO 2025-05-08 00:23:54,437 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:26:17,805 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\serializers.py changed, reloading.
+INFO 2025-05-08 00:26:18,923 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:27:05,001 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\views.py changed, reloading.
+INFO 2025-05-08 00:27:06,372 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 00:27:31,138 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\urls.py changed, reloading.
+INFO 2025-05-08 00:27:32,164 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 01:09:10,911 basehttp "GET /health/ HTTP/1.1" 200 53
+WARNING 2025-05-08 01:12:14,405 log Bad Request: /auth/register/init
+WARNING 2025-05-08 01:12:14,406 basehttp "POST /auth/register/init HTTP/1.1" 400 150
+WARNING 2025-05-08 01:12:34,588 log Unauthorized: /auth/login
+WARNING 2025-05-08 01:12:34,589 basehttp "POST /auth/login HTTP/1.1" 401 49
+INFO 2025-05-08 01:12:37,927 basehttp "POST /auth/login HTTP/1.1" 200 874
+INFO 2025-05-08 01:12:56,054 basehttp "POST /auth/login/init HTTP/1.1" 200 82
+INFO 2025-05-08 01:29:07,034 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 01:29:16,558 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 01:29:26,901 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 01:30:02,943 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 01:31:02,435 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\studyhive\settings.py changed, reloading.
+INFO 2025-05-08 01:31:03,793 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 01:31:05,359 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+WARNING 2025-05-08 01:31:05,981 log Unauthorized: /auth/login
+WARNING 2025-05-08 01:31:05,983 basehttp "POST /auth/login HTTP/1.1" 401 49
+INFO 2025-05-08 01:31:19,663 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\studyhive\settings.py changed, reloading.
+INFO 2025-05-08 01:31:20,718 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 01:31:25,053 basehttp "POST /auth/login HTTP/1.1" 200 874
+INFO 2025-05-08 02:13:28,734 basehttp "POST /auth/login HTTP/1.1" 200 874
+INFO 2025-05-08 02:21:15,390 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 02:21:16,187 basehttp "POST /auth/login HTTP/1.1" 200 874
+INFO 2025-05-08 02:21:46,600 basehttp "POST /auth/login HTTP/1.1" 200 874
+INFO 2025-05-08 02:22:02,859 basehttp "POST /auth/login HTTP/1.1" 200 874
+INFO 2025-05-08 02:28:14,406 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 02:28:15,092 basehttp "POST /auth/login HTTP/1.1" 200 874
+INFO 2025-05-08 02:28:20,751 basehttp "OPTIONS /auth/logout HTTP/1.1" 200 0
+INFO 2025-05-08 02:28:20,820 basehttp "POST /auth/logout HTTP/1.1" 200 52
+INFO 2025-05-08 02:28:33,819 basehttp "OPTIONS /auth/register HTTP/1.1" 200 0
+WARNING 2025-05-08 02:28:33,836 log Not Found: /auth/register
+WARNING 2025-05-08 02:28:33,837 basehttp "POST /auth/register HTTP/1.1" 404 4421
+WARNING 2025-05-08 02:28:38,060 log Not Found: /auth/register
+WARNING 2025-05-08 02:28:38,060 basehttp "POST /auth/register HTTP/1.1" 404 4421
+WARNING 2025-05-08 02:29:07,689 log Not Found: /auth/register
+WARNING 2025-05-08 02:29:07,690 basehttp "POST /auth/register HTTP/1.1" 404 4421
+WARNING 2025-05-08 02:30:06,590 log Not Found: /auth/register
+WARNING 2025-05-08 02:30:06,591 basehttp "POST /auth/register HTTP/1.1" 404 4421
+INFO 2025-05-08 02:31:02,796 basehttp "OPTIONS /auth/register/ HTTP/1.1" 200 0
+WARNING 2025-05-08 02:31:02,801 log Not Found: /auth/register/
+WARNING 2025-05-08 02:31:02,802 basehttp "POST /auth/register/ HTTP/1.1" 404 4424
+INFO 2025-05-08 02:48:37,858 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\models.py changed, reloading.
+INFO 2025-05-08 02:48:39,119 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 02:48:48,030 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\serializers.py changed, reloading.
+INFO 2025-05-08 02:48:48,882 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 02:49:02,138 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\views.py changed, reloading.
+INFO 2025-05-08 02:49:03,167 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 02:49:19,915 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\views.py changed, reloading.
+INFO 2025-05-08 02:49:20,778 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 02:49:28,714 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\serializers.py changed, reloading.
+INFO 2025-05-08 02:49:29,591 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 02:50:48,225 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\models.py changed, reloading.
+INFO 2025-05-08 02:50:49,113 autoreload Watching for file changes with StatReloader

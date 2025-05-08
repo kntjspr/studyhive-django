@@ -1,0 +1,21 @@
+ERROR 2025-05-08 00:11:50,897 views Error storing pending registration: relation "authentication_pendingregistration" does not exist
+LINE 1: ...entication_pendingregistration"."created_at" FROM "authentic...
+                                                             ^
+
+INFO 2025-05-08 00:14:15,938 otp Sending email via Resend: to=['user@example.com'], subject=Your StudyHive Verification Code
+INFO 2025-05-08 00:14:17,267 otp Resend API response status: 422
+ERROR 2025-05-08 00:14:17,268 otp Resend API error: 422
+ERROR 2025-05-08 00:14:17,268 otp Response content: {"name":"validation_error","statusCode":422,"message":"Invalid `to` field. Please use our testing email address instead of domains like `example.com`. See our documentation for more information."}
+ERROR 2025-05-08 00:14:17,274 otp Failed to send OTP email to user@example.com
+INFO 2025-05-08 00:14:43,559 otp Sending email via Resend: to=['kntjspr26@gmail.com'], subject=Your StudyHive Verification Code
+INFO 2025-05-08 00:14:46,282 otp Resend API response status: 200
+INFO 2025-05-08 00:14:46,282 otp Email sent successfully: 1ed86a44-3819-44a9-9900-4db6a84dacef
+INFO 2025-05-08 00:14:46,283 otp OTP email sent to kntjspr26@gmail.com: 1ed86a44-3819-44a9-9900-4db6a84dacef
+INFO 2025-05-08 00:16:07,206 otp Sending email via Resend: to=['kntjspr26@gmail.com'], subject=Your StudyHive Verification Code
+INFO 2025-05-08 00:16:09,768 otp Resend API response status: 200
+INFO 2025-05-08 00:16:09,770 otp Email sent successfully: abba9da3-2268-4738-91d5-15698f66d208
+INFO 2025-05-08 00:16:09,771 otp OTP email sent to kntjspr26@gmail.com: abba9da3-2268-4738-91d5-15698f66d208
+INFO 2025-05-08 01:12:52,068 otp Sending email via Resend: to=['kntjspr26@gmail.com'], subject=Your StudyHive Verification Code
+INFO 2025-05-08 01:12:56,053 otp Resend API response status: 200
+INFO 2025-05-08 01:12:56,053 otp Email sent successfully: 92f4a512-1fb9-41c7-8618-47aade303350
+INFO 2025-05-08 01:12:56,054 otp OTP email sent to kntjspr26@gmail.com: 92f4a512-1fb9-41c7-8618-47aade303350

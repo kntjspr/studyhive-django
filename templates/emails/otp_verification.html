@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHive - Verification Code</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #eee;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: #4a6ee0;
+            margin-bottom: 10px;
+        }
+        .code {
+            background-color: #f0f0f0;
+            font-family: monospace;
+            font-size: 24px;
+            letter-spacing: 4px;
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            border: 1px dashed #ccc;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>StudyHive</h1>
+            <p>Your Verification Code</p>
+        </div>
+        
+        <p>Hello,</p>
+        
+        <p>Please use the following verification code to complete your request:</p>
+        
+        <div class="code">{{ otp_code }}</div>
+        
+        <p>This code will expire in {{ expiry_minutes }} minutes.</p>
+        
+        <p>If you didn't request this code, you can safely ignore this email.</p>
+        
+        <p>Best regards,<br>The StudyHive Team</p>
+        
+        <div class="footer">
+            <p>This is an automated message, please do not reply.</p>
+        </div>
+    </div>
+</body>
+</html> 
