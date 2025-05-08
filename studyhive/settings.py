@@ -3,6 +3,7 @@ Django settings for studyhive project.
 """
 
 import os
+import cloudinary
 from datetime import timedelta
 from pathlib import Path
 from decouple import config, Csv
@@ -34,6 +35,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
+    'cloudinary',
     
     # Local apps
     'api',
@@ -211,4 +213,20 @@ LOGGING = {
             'propagate': False,
         },
     },
-} 
+}
+
+# Cloudinary configuration
+CLOUDINARY = {
+    'cloud_name': config('CLOUDINARY_CLOUD_NAME', default=''),
+    'api_key': config('CLOUDINARY_API_KEY', default=''),
+    'api_secret': config('CLOUDINARY_API_SECRET', default=''),
+    'secure': True
+}
+
+# Initialize Cloudinary
+cloudinary.config(
+    cloud_name=CLOUDINARY['cloud_name'],
+    api_key=CLOUDINARY['api_key'],
+    api_secret=CLOUDINARY['api_secret'],
+    secure=CLOUDINARY['secure']
+) 

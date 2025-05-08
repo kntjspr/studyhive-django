@@ -75,3 +75,156 @@ INFO 2025-05-08 02:49:28,714 autoreload C:\Users\user0\Desktop\AppDev\studyhive-
 INFO 2025-05-08 02:49:29,591 autoreload Watching for file changes with StatReloader
 INFO 2025-05-08 02:50:48,225 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\authentication\models.py changed, reloading.
 INFO 2025-05-08 02:50:49,113 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 12:14:02,440 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 12:14:09,242 basehttp "OPTIONS /auth/login/ HTTP/1.1" 200 0
+WARNING 2025-05-08 12:14:09,265 log Not Found: /auth/login/
+WARNING 2025-05-08 12:14:09,266 basehttp "POST /auth/login/ HTTP/1.1" 404 4415
+INFO 2025-05-08 12:41:57,807 basehttp "POST /auth/login HTTP/1.1" 200 905
+WARNING 2025-05-08 12:42:19,340 log Not Found: /auth/login/
+WARNING 2025-05-08 12:42:19,341 basehttp "POST /auth/login/ HTTP/1.1" 404 4415
+INFO 2025-05-08 12:42:32,559 basehttp "POST /auth/login HTTP/1.1" 200 905
+WARNING 2025-05-08 12:42:35,704 log Not Found: /auth/login/
+WARNING 2025-05-08 12:42:35,705 basehttp "POST /auth/login/ HTTP/1.1" 404 4415
+INFO 2025-05-08 12:42:49,532 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\manage.py changed, reloading.
+INFO 2025-05-08 12:42:50,575 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-08 12:43:18,077 log Not Found: /auth/login/
+WARNING 2025-05-08 12:43:18,084 basehttp "POST /auth/login/ HTTP/1.1" 404 4415
+INFO 2025-05-08 12:44:41,563 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 12:44:42,204 basehttp "POST /auth/login HTTP/1.1" 200 905
+INFO 2025-05-08 12:44:57,373 basehttp "OPTIONS /auth/logout/ HTTP/1.1" 200 0
+WARNING 2025-05-08 12:44:57,380 log Not Found: /auth/logout/
+WARNING 2025-05-08 12:44:57,380 basehttp "POST /auth/logout/ HTTP/1.1" 404 4418
+INFO 2025-05-08 12:47:16,292 basehttp "POST /auth/login HTTP/1.1" 200 905
+INFO 2025-05-08 12:57:46,875 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 12:57:47,481 basehttp "POST /auth/login HTTP/1.1" 200 905
+INFO 2025-05-08 13:02:06,589 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+WARNING 2025-05-08 13:02:06,655 log Not Found: /auth/login
+WARNING 2025-05-08 13:02:06,657 basehttp "POST /auth/login HTTP/1.1" 404 62
+WARNING 2025-05-08 13:02:19,263 log Not Found: /auth/login
+WARNING 2025-05-08 13:02:19,264 basehttp "POST /auth/login HTTP/1.1" 404 62
+INFO 2025-05-08 13:02:35,074 basehttp "POST /auth/login HTTP/1.1" 200 905
+WARNING 2025-05-08 13:04:57,105 log Bad Request: /auth/register/init
+WARNING 2025-05-08 13:04:57,106 basehttp "POST /auth/register/init HTTP/1.1" 400 231
+WARNING 2025-05-08 13:05:06,111 log Bad Request: /auth/register/init
+WARNING 2025-05-08 13:05:06,112 basehttp "POST /auth/register/init HTTP/1.1" 400 183
+WARNING 2025-05-08 13:05:08,952 log Bad Request: /auth/register/init
+WARNING 2025-05-08 13:05:08,953 basehttp "POST /auth/register/init HTTP/1.1" 400 139
+ERROR 2025-05-08 13:05:29,438 log Internal Server Error: /auth/register/init
+ERROR 2025-05-08 13:05:29,438 basehttp "POST /auth/register/init HTTP/1.1" 500 60
+ERROR 2025-05-08 13:05:36,163 log Internal Server Error: /auth/register/init
+ERROR 2025-05-08 13:05:36,164 basehttp "POST /auth/register/init HTTP/1.1" 500 60
+INFO 2025-05-08 13:23:38,334 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 13:23:49,862 basehttp "POST /auth/register/init HTTP/1.1" 200 104
+WARNING 2025-05-08 13:24:21,247 log Bad Request: /auth/register/complete
+WARNING 2025-05-08 13:24:21,247 basehttp "POST /auth/register/complete HTTP/1.1" 400 66
+INFO 2025-05-08 13:24:24,388 basehttp "POST /auth/register/complete HTTP/1.1" 201 925
+INFO 2025-05-08 13:24:34,926 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 13:25:10,144 basehttp "GET /api/profile/ HTTP/1.1" 200 180
+INFO 2025-05-08 14:12:48,042 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\api\models.py changed, reloading.
+INFO 2025-05-08 14:12:49,002 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 14:12:57,918 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\api\serializers.py changed, reloading.
+INFO 2025-05-08 14:12:58,936 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 14:13:17,988 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\studyhive\settings.py changed, reloading.
+INFO 2025-05-08 14:13:19,132 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 14:14:02,806 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\api\views.py changed, reloading.
+INFO 2025-05-08 14:14:04,080 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 14:14:15,375 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\api\urls.py changed, reloading.
+INFO 2025-05-08 14:14:16,452 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 14:15:46,136 autoreload C:\Users\user0\Desktop\AppDev\studyhive-backend-new\studyhive-backend-new\studyhive\settings.py changed, reloading.
+INFO 2025-05-08 14:15:47,475 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 14:22:36,697 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 14:22:41,288 basehttp "GET /api/profile/ HTTP/1.1" 200 240
+WARNING 2025-05-08 15:32:17,497 log Unauthorized: /api/profile/
+WARNING 2025-05-08 15:32:17,499 basehttp "GET /api/profile/ HTTP/1.1" 401 107
+WARNING 2025-05-08 15:32:26,602 log Unauthorized: /api/profile/
+WARNING 2025-05-08 15:32:26,602 basehttp "GET /api/profile/ HTTP/1.1" 401 172
+INFO 2025-05-08 15:32:31,763 basehttp "POST /auth/login HTTP/1.1" 200 918
+WARNING 2025-05-08 15:32:38,226 log Unauthorized: /api/profile/
+WARNING 2025-05-08 15:32:38,227 basehttp "GET /api/profile/ HTTP/1.1" 401 172
+INFO 2025-05-08 15:32:46,617 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 15:32:53,328 basehttp "GET /api/profile/ HTTP/1.1" 200 240
+WARNING 2025-05-08 15:33:03,173 log Unauthorized: /api/profile/
+WARNING 2025-05-08 15:33:03,173 basehttp "PATCH /api/profile/ HTTP/1.1" 401 107
+WARNING 2025-05-08 15:33:11,452 log Unauthorized: /api/profile/
+WARNING 2025-05-08 15:33:11,453 basehttp "PATCH /api/profile/ HTTP/1.1" 401 107
+INFO 2025-05-08 15:33:14,325 basehttp "PATCH /api/profile/ HTTP/1.1" 200 299
+INFO 2025-05-08 15:35:50,834 autoreload Watching for file changes with StatReloader
+INFO 2025-05-08 15:36:27,196 basehttp "POST /api/profile/avatar/ HTTP/1.1" 200 477
+INFO 2025-05-08 15:36:45,117 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 15:48:07,153 basehttp "POST /auth/logout HTTP/1.1" 200 52
+INFO 2025-05-08 15:48:13,724 basehttp "POST /auth/logout HTTP/1.1" 200 52
+INFO 2025-05-08 15:48:14,588 basehttp "POST /auth/logout HTTP/1.1" 200 52
+INFO 2025-05-08 16:24:01,271 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:35:54,281 basehttp "OPTIONS /api/profile/ HTTP/1.1" 200 0
+WARNING 2025-05-08 16:35:54,290 log Unauthorized: /api/profile/
+WARNING 2025-05-08 16:35:54,291 basehttp "GET /api/profile/ HTTP/1.1" 401 172
+INFO 2025-05-08 16:36:00,261 basehttp "OPTIONS /auth/logout HTTP/1.1" 200 0
+WARNING 2025-05-08 16:36:00,264 log Unauthorized: /auth/logout
+WARNING 2025-05-08 16:36:00,264 basehttp "POST /auth/logout HTTP/1.1" 401 172
+INFO 2025-05-08 16:36:11,954 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+WARNING 2025-05-08 16:36:12,690 log Unauthorized: /auth/login
+WARNING 2025-05-08 16:36:12,691 basehttp "POST /auth/login HTTP/1.1" 401 49
+INFO 2025-05-08 16:36:17,479 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 16:36:20,042 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:37:00,754 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:37:08,622 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:37:50,429 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:38:55,430 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:41:40,439 basehttp "POST /auth/logout HTTP/1.1" 200 52
+INFO 2025-05-08 16:45:14,127 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 16:45:14,725 basehttp "POST /auth/login HTTP/1.1" 200 905
+INFO 2025-05-08 16:45:17,734 basehttp "OPTIONS /api/profile/ HTTP/1.1" 200 0
+INFO 2025-05-08 16:45:17,823 basehttp "GET /api/profile/ HTTP/1.1" 200 227
+INFO 2025-05-08 16:45:23,731 basehttp "PATCH /api/profile/ HTTP/1.1" 200 228
+INFO 2025-05-08 16:45:26,122 basehttp "OPTIONS /auth/logout HTTP/1.1" 200 0
+INFO 2025-05-08 16:45:26,188 basehttp "POST /auth/logout HTTP/1.1" 200 52
+INFO 2025-05-08 16:45:44,902 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 16:45:47,529 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:45:52,216 basehttp "PATCH /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:45:54,682 basehttp "PATCH /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:46:34,827 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 16:46:38,101 basehttp "PATCH /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 17:16:07,781 basehttp "OPTIONS /auth/login HTTP/1.1" 200 0
+INFO 2025-05-08 17:16:08,442 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 17:16:12,082 basehttp "OPTIONS /api/profile/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:16:12,155 basehttp "GET /api/profile/ HTTP/1.1" 200 436
+INFO 2025-05-08 17:16:24,155 basehttp "OPTIONS /api/profile/avatar/ HTTP/1.1" 200 0
+INFO 2025-05-08 17:16:26,185 basehttp "POST /api/profile/avatar/ HTTP/1.1" 200 476
+INFO 2025-05-08 17:16:42,359 basehttp "PATCH /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:27:55,582 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:30:31,914 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:30:35,325 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:30:38,131 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:30:51,713 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:31:02,105 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:31:11,638 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 17:31:11,719 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:31:20,106 basehttp "OPTIONS /auth/logout HTTP/1.1" 200 0
+INFO 2025-05-08 17:31:20,176 basehttp "POST /auth/logout HTTP/1.1" 200 52
+INFO 2025-05-08 17:31:42,531 basehttp "OPTIONS /auth/register/init HTTP/1.1" 200 0
+INFO 2025-05-08 17:31:45,859 basehttp "POST /auth/register/init HTTP/1.1" 200 105
+INFO 2025-05-08 17:32:11,433 basehttp "OPTIONS /auth/register/complete HTTP/1.1" 200 0
+INFO 2025-05-08 17:32:11,511 basehttp "POST /auth/register/complete HTTP/1.1" 201 929
+INFO 2025-05-08 17:32:11,630 basehttp "GET /api/profile/ HTTP/1.1" 200 244
+INFO 2025-05-08 17:32:23,018 basehttp "POST /api/profile/avatar/ HTTP/1.1" 200 421
+INFO 2025-05-08 17:33:10,202 basehttp "PATCH /api/profile/ HTTP/1.1" 200 380
+INFO 2025-05-08 17:36:48,667 basehttp "POST /auth/logout HTTP/1.1" 200 52
+INFO 2025-05-08 17:37:22,592 basehttp "POST /auth/login HTTP/1.1" 200 922
+INFO 2025-05-08 17:37:22,678 basehttp "GET /api/profile/ HTTP/1.1" 200 380
+INFO 2025-05-08 17:43:42,562 basehttp "GET /api/profile/ HTTP/1.1" 200 380
+WARNING 2025-05-08 17:43:54,837 log Unauthorized: /auth/login
+WARNING 2025-05-08 17:43:54,837 basehttp "POST /auth/login HTTP/1.1" 401 49
+INFO 2025-05-08 17:43:56,651 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 17:43:56,729 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:44:24,830 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:44:34,652 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 17:44:34,724 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:45:18,321 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:45:35,331 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 17:45:35,411 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:45:51,776 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:45:56,843 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 17:45:57,035 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:46:44,380 basehttp "GET /api/profile/ HTTP/1.1" 200 435
+INFO 2025-05-08 17:46:50,044 basehttp "POST /auth/login HTTP/1.1" 200 918
+INFO 2025-05-08 17:46:50,128 basehttp "GET /api/profile/ HTTP/1.1" 200 435

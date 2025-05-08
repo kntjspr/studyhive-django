@@ -19,3 +19,19 @@ INFO 2025-05-08 01:12:52,068 otp Sending email via Resend: to=['kntjspr26@gmail.
 INFO 2025-05-08 01:12:56,053 otp Resend API response status: 200
 INFO 2025-05-08 01:12:56,053 otp Email sent successfully: 92f4a512-1fb9-41c7-8618-47aade303350
 INFO 2025-05-08 01:12:56,054 otp OTP email sent to kntjspr26@gmail.com: 92f4a512-1fb9-41c7-8618-47aade303350
+ERROR 2025-05-08 13:05:29,437 views Error storing pending registration: column authentication_pendingregistration.first_name does not exist
+LINE 1: ...hentication_pendingregistration"."password_hash", "authentic...
+                                                             ^
+
+ERROR 2025-05-08 13:05:36,162 views Error storing pending registration: column authentication_pendingregistration.first_name does not exist
+LINE 1: ...hentication_pendingregistration"."password_hash", "authentic...
+                                                             ^
+
+INFO 2025-05-08 13:23:47,250 otp Sending email via Resend: to=['2081367@g.cu.edu.ph'], subject=Your StudyHive Verification Code
+INFO 2025-05-08 13:23:49,854 otp Resend API response status: 200
+INFO 2025-05-08 13:23:49,854 otp Email sent successfully: a8fee366-b661-448c-9274-41c5dec630b2
+INFO 2025-05-08 13:23:49,861 otp OTP email sent to 2081367@g.cu.edu.ph: a8fee366-b661-448c-9274-41c5dec630b2
+INFO 2025-05-08 17:31:43,154 otp Sending email via Resend: to=['knt.jspr26@gmail.com'], subject=Your StudyHive Verification Code
+INFO 2025-05-08 17:31:45,856 otp Resend API response status: 200
+INFO 2025-05-08 17:31:45,858 otp Email sent successfully: 2ce9b020-5677-4951-83cc-8aa886aeb4e4
+INFO 2025-05-08 17:31:45,858 otp OTP email sent to knt.jspr26@gmail.com: 2ce9b020-5677-4951-83cc-8aa886aeb4e4
